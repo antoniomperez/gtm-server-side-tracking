@@ -24,7 +24,7 @@ module.exports = {
     { value: 'WIP', name: 'WIP:      Work in progress' },
   ],
 
-  scopes: [{ name: 'TO BE CHANGED' }],
+  scopes: [{ name: 'gtm-sst' }],
 
   allowTicketNumber: false,
   isTicketNumberRequired: false,

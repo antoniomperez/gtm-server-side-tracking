@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  proxy:
+    image: gcr.io/cloud-tagging-10302018/gtm-cloud-image:stable
+    ports:
+      - 8080:8080
+    environment:
+      CONTAINER_CONFIG: 'aWQ9R1RNLU41MjQ2WjMmZW52PTEmYXV0aD1QNldwLVg3R0pqUUlJTW5MWTczRnNn'
+      RUN_AS_PREVIEW_SERVER: 'true'

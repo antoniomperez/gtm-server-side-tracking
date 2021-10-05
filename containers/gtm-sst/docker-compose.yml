@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  proxy:
+    image: gcr.io/cloud-tagging-10302018/gtm-cloud-image:stable
+    ports:
+      - 8080:8080
+    env_file:
+      - local.env
